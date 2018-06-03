@@ -1,0 +1,3 @@
+# common use of virtualenv of python
+alias pyenv="source ~/pyenv/bin/activate"
+alias py3env="source ~/py3env/bin/activate"
