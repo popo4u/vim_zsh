@@ -81,6 +81,10 @@ set virtualedit+=onemore
 " colorscheme monokai
 colorscheme desert
 
+if exists('$TMUX')
+    set term=screen-256color
+endif
+
 " Map esc to captical
 au VimEnter * silent! !xmodmap -e 'clear Lock' -e 'keycode 0x42 = Escape'
 au VimLeave * silent! !xmodmap -e 'clear Lock' -e 'keycode 0x42 = Caps_Lock'

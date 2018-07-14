@@ -99,3 +99,8 @@ export NVM_DIR="/home/loyal/.nvm"
 # some alais for python virtualenv
 [ -f ~/.vim/pyenv_alias ] && . ~/.vim/pyenv_alias
 
+# some alais for fuck
+eval $(thefuck --alias)
+
+# some alais for pipenv
+eval $(pipenv --completion)
