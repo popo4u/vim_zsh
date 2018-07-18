@@ -104,3 +104,6 @@ eval $(thefuck --alias)
 
 # some alais for pipenv
 eval $(pipenv --completion)
+
+# added by Miniconda2 installer
+export PATH="/home/loyal/miniconda2/bin:$PATH"

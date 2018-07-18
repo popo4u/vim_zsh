@@ -74,6 +74,7 @@ set tabstop=4
 set enc=utf-8
 set laststatus=2
 set shiftwidth=4
+set relativenumber
 set virtualedit+=onemore
 
 
