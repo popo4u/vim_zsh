@@ -4,19 +4,25 @@ if [ -f ~/.zshrc ]; then
     cp ~/.zshrc ~/.zshrc.bak
     rm ~/.zshrc;
 fi
-ln -s ./zshrc ~/.zshrc
+ln -s ~/.vim/zshrc ~/.zshrc
 
 if [ -f ~/.vimrc ]; then
     cp ~/.vimrc ~/.vimrc.bak
     rm ~/.vimrc;
 fi
-ln -s ./vimrc ~/.vimrc
+ln -s ~/.vim/vimrc ~/.vimrc
 
 if [ -f ~/.bashrc ]; then
     cp ~/.bashrc ~/.bashrc.bak
     rm ~/.bashrc;
 fi
-ln -s ./bashrc ~/.bashrc
+ln -s ~/.vim/bashrc ~/.bashrc
+
+if [ -f ~/.tmux.conf ]; then
+    cp ~/.tmux.conf ~/.tmux.conf.bak
+    rm ~/.tmux.conf;
+fi
+ln -s ~/.vim/.tmux.conf ~/.tmux.conf
 
 # install git substree
 # install incr
