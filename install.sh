@@ -22,7 +22,7 @@ if [ -f ~/.tmux.conf ]; then
     cp ~/.tmux.conf ~/.tmux.conf.bak
     rm ~/.tmux.conf;
 fi
-ln -s ~/.vim/.tmux.conf ~/.tmux.conf
+ln -s ~/.vim/tmux.conf ~/.tmux.conf
 
 # install git substree
 # install incr
