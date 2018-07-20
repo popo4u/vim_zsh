@@ -66,7 +66,6 @@
 "" }
 
 " Basic setting
-set paste
 set number
 set nowrap
 set smarttab
